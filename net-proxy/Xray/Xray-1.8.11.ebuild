@@ -19,7 +19,7 @@ KEYWORDS="~amd64 ~arm ~arm64 ~loong ~riscv ~x86"
 RESTRICT="mirror"
 
 DEPEND="net-proxy/v2ray-geoip
-	app-proxy/v2ray-geosite"
+	net-proxy/v2ray-geosite"
 RDEPEND="${DEPEND}"
 BDEPEND=">=dev-lang/go-1.22"
 
