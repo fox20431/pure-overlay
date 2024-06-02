@@ -3,7 +3,7 @@
 
 EAPI=8
 
-DESCRIPTION="Community managed domain list for V2Ray."
+DESCRIPTION="Community managed domain list."
 HOMEPAGE="https://github.com/v2fly/domain-list-community"
 SRC_URI="https://github.com/v2fly/domain-list-community/releases/download/${PV}/dlc.dat.xz -> ${P}.dat.xz"
 
@@ -12,8 +12,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~loong ~riscv ~x86"
 
 RESTRICT="mirror"
-
-RDEPEND="!dev-libs/v2ray-domain-list-community"
 
 S="${WORKDIR}"
 
