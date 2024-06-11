@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Community managed domain list.
+EAPI=8
+HOMEPAGE=https://github.com/v2fly/domain-list-community
+KEYWORDS=~amd64 ~arm ~arm64 ~loong ~riscv ~x86
+LICENSE=MIT
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/v2fly/domain-list-community/releases/download/20240508170917/dlc.dat.xz -> v2ray-domain-list-community-bin-20240508170917.dat.xz
+_md5_=37fc3147d477bda904a875f808138767
