@@ -15,10 +15,10 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-src_prepare() {
-    default
+src_compile() {
+    emake CC="$(tc-getCC)" CFLAGS="${CFLAGS}"
 }
 
 src_install() {
-    default
+    emake DESTDIR="${D}" install
 }
