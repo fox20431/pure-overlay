@@ -3,6 +3,9 @@
 
 EAPI=7
 
+inherit toolchain-funcs
+
+
 DESCRIPTION="Host Information Fetch"
 HOMEPAGE="https://github.com/mingmille/hifetch"
 SRC_URI="https://github.com/mingmille/hifetch/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
