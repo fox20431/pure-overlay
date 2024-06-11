@@ -21,8 +21,4 @@ src_prepare() {
 
 src_install() {
     default
-
-    # install bin in `/usr/bin`
-    exeinto /usr/bin
-    doexe "${S}"/hifetch
 }
